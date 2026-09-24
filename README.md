@@ -47,6 +47,3 @@ All simulated figures live in `src/model.ts`:
 - `npm run dev`: Vite dev server.
 - `npm run build`: type-checks, bundles into one self-contained HTML, and copies it
   to `UAE-Respiratory-Surveillance-Dashboard.html` at the repo root.
-
-## Hosting
-Drag the folder onto Netlify or any static host. The deliverable is one HTML file.
