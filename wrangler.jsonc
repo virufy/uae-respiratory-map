@@ -1,0 +1,11 @@
+{
+  // Deploy the built dashboard as a static-assets Worker.
+  // `npm run build` emits the self-contained site to ./dist, and wrangler
+  // serves it directly — no Worker script and no Vite plugin involved, so the
+  // Cloudflare Vite-framework auto-config (which needs Vite 6+) is skipped.
+  "name": "uae-respiratory-map",
+  "compatibility_date": "2025-06-01",
+  "assets": {
+    "directory": "./dist"
+  }
+}
